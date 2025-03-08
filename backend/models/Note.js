@@ -8,5 +8,5 @@ const noteSchema = new Schema({
     date:{type: Date, default:Date.now},
     user:{type: mongoose.Schema.Types.ObjectId, ref: 'user'}
 })
-const note = mongoose.model('note', noteSchema);
+const note =mongoose.model('note', noteSchema);
 module.exports = note;
