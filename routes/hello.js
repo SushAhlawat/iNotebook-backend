@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator');
 
 
 router.get('/', async(req, res) => {
-    res.send("Hello World");
+    res.send("Hello yash");
 
 })
 
